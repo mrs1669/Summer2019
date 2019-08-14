@@ -20,9 +20,10 @@ class ViewController: UIViewController {
         label.textColor = UIColor.green // テキストの色指定
         label.backgroundColor = UIColor.orange // ラベルの背景色指定
         label.layer.masksToBounds = true
-        label.layer.cornerRadius = 10.0
-        self.view.addSubview(label)
-        self.view.backgroundColor = UIColor.cyan
+        label.layer.cornerRadius = 10.0 // ラベルの箱の角の丸み半径指定
+        self.view.addSubview(label) // ラベルをビューに表示
+        
+        self.view.backgroundColor = UIColor.cyan // ビューの背景色指定
         
     }
 

@@ -16,13 +16,14 @@ class ViewController: UIViewController {
         
         let label = UILabel() // ラベル"label"を宣言
         label.frame = CGRect(x: 150, y: 300, width: 65, height: 30) // ラベルの位置、大きさ指定
-        label.text = "テキスト"
-        label.textColor = UIColor.green
-        label.backgroundColor = UIColor.orange
+        label.text = "テキスト" // テキストの表示内容
+        label.textColor = UIColor.green // テキストの色指定
+        label.backgroundColor = UIColor.orange // ラベルの背景色指定
         label.layer.masksToBounds = true
         label.layer.cornerRadius = 10.0
         self.view.addSubview(label)
         self.view.backgroundColor = UIColor.cyan
+        
     }
 
     

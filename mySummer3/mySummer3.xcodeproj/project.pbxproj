@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E11EA43A230404CF00F68913 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11EA439230404CF00F68913 /* AppDelegate.swift */; };
+		E11EA43C230404CF00F68913 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11EA43B230404CF00F68913 /* ViewController.swift */; };
+		E11EA43E230404CF00F68913 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = E11EA43D230404CF00F68913 /* Experience.rcproject */; };
+		E11EA441230404CF00F68913 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11EA43F230404CF00F68913 /* Main.storyboard */; };
+		E11EA443230404D000F68913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11EA442230404D000F68913 /* Assets.xcassets */; };
+		E11EA446230404D000F68913 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11EA444230404D000F68913 /* LaunchScreen.storyboard */; };
+		E11EA451230404D000F68913 /* mySummer3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11EA450230404D000F68913 /* mySummer3Tests.swift */; };
+		E11EA45C230404D000F68913 /* mySummer3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11EA45B230404D000F68913 /* mySummer3UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E11EA44D230404D000F68913 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E11EA42E230404CF00F68913 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E11EA435230404CF00F68913;
+			remoteInfo = mySummer3;
+		};
+		E11EA458230404D000F68913 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E11EA42E230404CF00F68913 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E11EA435230404CF00F68913;
+			remoteInfo = mySummer3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E11EA436230404CF00F68913 /* mySummer3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mySummer3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11EA439230404CF00F68913 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E11EA43B230404CF00F68913 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E11EA43D230404CF00F68913 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		E11EA440230404CF00F68913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E11EA442230404D000F68913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E11EA445230404D000F68913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E11EA447230404D000F68913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E11EA44C230404D000F68913 /* mySummer3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mySummer3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11EA450230404D000F68913 /* mySummer3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySummer3Tests.swift; sourceTree = "<group>"; };
+		E11EA452230404D000F68913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E11EA457230404D000F68913 /* mySummer3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mySummer3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11EA45B230404D000F68913 /* mySummer3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySummer3UITests.swift; sourceTree = "<group>"; };
+		E11EA45D230404D000F68913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E11EA433230404CF00F68913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11EA449230404D000F68913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11EA454230404D000F68913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E11EA42D230404CF00F68913 = {
+			isa = PBXGroup;
+			children = (
+				E11EA438230404CF00F68913 /* mySummer3 */,
+				E11EA44F230404D000F68913 /* mySummer3Tests */,
+				E11EA45A230404D000F68913 /* mySummer3UITests */,
+				E11EA437230404CF00F68913 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E11EA437230404CF00F68913 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E11EA436230404CF00F68913 /* mySummer3.app */,
+				E11EA44C230404D000F68913 /* mySummer3Tests.xctest */,
+				E11EA457230404D000F68913 /* mySummer3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E11EA438230404CF00F68913 /* mySummer3 */ = {
+			isa = PBXGroup;
+			children = (
+				E11EA439230404CF00F68913 /* AppDelegate.swift */,
+				E11EA43B230404CF00F68913 /* ViewController.swift */,
+				E11EA43D230404CF00F68913 /* Experience.rcproject */,
+				E11EA43F230404CF00F68913 /* Main.storyboard */,
+				E11EA442230404D000F68913 /* Assets.xcassets */,
+				E11EA444230404D000F68913 /* LaunchScreen.storyboard */,
+				E11EA447230404D000F68913 /* Info.plist */,
+			);
+			path = mySummer3;
+			sourceTree = "<group>";
+		};
+		E11EA44F230404D000F68913 /* mySummer3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E11EA450230404D000F68913 /* mySummer3Tests.swift */,
+				E11EA452230404D000F68913 /* Info.plist */,
+			);
+			path = mySummer3Tests;
+			sourceTree = "<group>";
+		};
+		E11EA45A230404D000F68913 /* mySummer3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E11EA45B230404D000F68913 /* mySummer3UITests.swift */,
+				E11EA45D230404D000F68913 /* Info.plist */,
+			);
+			path = mySummer3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E11EA435230404CF00F68913 /* mySummer3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E11EA460230404D000F68913 /* Build configuration list for PBXNativeTarget "mySummer3" */;
+			buildPhases = (
+				E11EA432230404CF00F68913 /* Sources */,
+				E11EA433230404CF00F68913 /* Frameworks */,
+				E11EA434230404CF00F68913 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mySummer3;
+			productName = mySummer3;
+			productReference = E11EA436230404CF00F68913 /* mySummer3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E11EA44B230404D000F68913 /* mySummer3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E11EA463230404D000F68913 /* Build configuration list for PBXNativeTarget "mySummer3Tests" */;
+			buildPhases = (
+				E11EA448230404D000F68913 /* Sources */,
+				E11EA449230404D000F68913 /* Frameworks */,
+				E11EA44A230404D000F68913 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E11EA44E230404D000F68913 /* PBXTargetDependency */,
+			);
+			name = mySummer3Tests;
+			productName = mySummer3Tests;
+			productReference = E11EA44C230404D000F68913 /* mySummer3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E11EA456230404D000F68913 /* mySummer3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E11EA466230404D000F68913 /* Build configuration list for PBXNativeTarget "mySummer3UITests" */;
+			buildPhases = (
+				E11EA453230404D000F68913 /* Sources */,
+				E11EA454230404D000F68913 /* Frameworks */,
+				E11EA455230404D000F68913 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E11EA459230404D000F68913 /* PBXTargetDependency */,
+			);
+			name = mySummer3UITests;
+			productName = mySummer3UITests;
+			productReference = E11EA457230404D000F68913 /* mySummer3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E11EA42E230404CF00F68913 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Takumi Muraishi";
+				TargetAttributes = {
+					E11EA435230404CF00F68913 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					E11EA44B230404D000F68913 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = E11EA435230404CF00F68913;
+					};
+					E11EA456230404D000F68913 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = E11EA435230404CF00F68913;
+					};
+				};
+			};
+			buildConfigurationList = E11EA431230404CF00F68913 /* Build configuration list for PBXProject "mySummer3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E11EA42D230404CF00F68913;
+			productRefGroup = E11EA437230404CF00F68913 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E11EA435230404CF00F68913 /* mySummer3 */,
+				E11EA44B230404D000F68913 /* mySummer3Tests */,
+				E11EA456230404D000F68913 /* mySummer3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E11EA434230404CF00F68913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11EA446230404D000F68913 /* LaunchScreen.storyboard in Resources */,
+				E11EA443230404D000F68913 /* Assets.xcassets in Resources */,
+				E11EA441230404CF00F68913 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11EA44A230404D000F68913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11EA455230404D000F68913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E11EA432230404CF00F68913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11EA43C230404CF00F68913 /* ViewController.swift in Sources */,
+				E11EA43A230404CF00F68913 /* AppDelegate.swift in Sources */,
+				E11EA43E230404CF00F68913 /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11EA448230404D000F68913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11EA451230404D000F68913 /* mySummer3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11EA453230404D000F68913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11EA45C230404D000F68913 /* mySummer3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E11EA44E230404D000F68913 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E11EA435230404CF00F68913 /* mySummer3 */;
+			targetProxy = E11EA44D230404D000F68913 /* PBXContainerItemProxy */;
+		};
+		E11EA459230404D000F68913 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E11EA435230404CF00F68913 /* mySummer3 */;
+			targetProxy = E11EA458230404D000F68913 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E11EA43F230404CF00F68913 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E11EA440230404CF00F68913 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E11EA444230404D000F68913 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E11EA445230404D000F68913 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E11EA45E230404D000F68913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E11EA45F230404D000F68913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E11EA461230404D000F68913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XU74X3434S;
+				INFOPLIST_FILE = mySummer3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mrs1669.develop-gmail.com.mySummer3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E11EA462230404D000F68913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XU74X3434S;
+				INFOPLIST_FILE = mySummer3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mrs1669.develop-gmail.com.mySummer3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E11EA464230404D000F68913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XU74X3434S;
+				INFOPLIST_FILE = mySummer3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mrs1669.develop-gmail.com.mySummer3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mySummer3.app/mySummer3";
+			};
+			name = Debug;
+		};
+		E11EA465230404D000F68913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XU74X3434S;
+				INFOPLIST_FILE = mySummer3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mrs1669.develop-gmail.com.mySummer3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mySummer3.app/mySummer3";
+			};
+			name = Release;
+		};
+		E11EA467230404D000F68913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XU74X3434S;
+				INFOPLIST_FILE = mySummer3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mrs1669.develop-gmail.com.mySummer3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mySummer3;
+			};
+			name = Debug;
+		};
+		E11EA468230404D000F68913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XU74X3434S;
+				INFOPLIST_FILE = mySummer3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mrs1669.develop-gmail.com.mySummer3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mySummer3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E11EA431230404CF00F68913 /* Build configuration list for PBXProject "mySummer3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11EA45E230404D000F68913 /* Debug */,
+				E11EA45F230404D000F68913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E11EA460230404D000F68913 /* Build configuration list for PBXNativeTarget "mySummer3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11EA461230404D000F68913 /* Debug */,
+				E11EA462230404D000F68913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E11EA463230404D000F68913 /* Build configuration list for PBXNativeTarget "mySummer3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11EA464230404D000F68913 /* Debug */,
+				E11EA465230404D000F68913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E11EA466230404D000F68913 /* Build configuration list for PBXNativeTarget "mySummer3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11EA467230404D000F68913 /* Debug */,
+				E11EA468230404D000F68913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E11EA42E230404CF00F68913 /* Project object */;
+}

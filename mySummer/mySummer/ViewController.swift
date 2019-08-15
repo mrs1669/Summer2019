@@ -22,12 +22,13 @@ class ViewController: UIViewController {
         // ラベルのテキスト
         label.text = "テキスト" // テキストの表示内容
         label.textColor = UIColor.green // テキストの色指定
+        label.textAlignment = NSTextAlignment.center
         
         // ラベルの背景
         label.backgroundColor = UIColor.orange // ラベルの背景色指定
         
         // ラベルの枠線
-        label.layer.borderColor = UIColor.blue.cgColor // 枠線の色指定
+        label.layer.borderColor = UIColor.blue.cgColor// 枠線の色指定
         label.layer.borderWidth = 10 // 枠線の太さ指定
         
         // ラベルの角丸指定

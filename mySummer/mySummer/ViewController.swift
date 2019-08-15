@@ -15,14 +15,27 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         let label = UILabel() // ラベル"label"を宣言
-        label.frame = CGRect(x: 150, y: 300, width: 65, height: 30) // ラベルの位置、大きさ指定
+        
+        // ラベルの大きさ
+        label.frame = CGRect(x: 120, y: 285, width: 125, height: 60) // ラベルの位置、大きさ指定
+        
+        // ラベルのテキスト
         label.text = "テキスト" // テキストの表示内容
         label.textColor = UIColor.green // テキストの色指定
+        
+        // ラベルの背景
         label.backgroundColor = UIColor.orange // ラベルの背景色指定
+        
+        // ラベルの枠線
+        label.layer.borderColor = UIColor.blue.cgColor // 枠線の色指定
+        label.layer.borderWidth = 10 // 枠線の太さ指定
+        
+        // ラベルの角丸指定
         label.layer.masksToBounds = true // 角丸にした部分のはみ出し許可 false:はみ出し可 true:はみ出し不可
         label.layer.cornerRadius = 10.0 // ラベルの箱の角の丸み半径指定　角丸半径
-        self.view.addSubview(label) // ラベルをビューに表示
         
+        // ビューに描画
+        self.view.addSubview(label) // ラベルをビューに表示
         self.view.backgroundColor = UIColor.cyan // ビューの背景色指定
         
     }

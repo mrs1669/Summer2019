@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         
         // ボタンの大きさ
         button.frame = CGRect(x: 120, y: 485, width: 125, height: 120) // ラベルの位置、大きさ指定
-        button.backgroundColor = UIColor.green
+        button.backgroundColor = UIColor.green // ボタンの背景色指定
         
         // ビューに描画
         self.view.addSubview(label) // ラベルをビューに表示

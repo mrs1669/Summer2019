@@ -17,12 +17,13 @@ class ViewController: UIViewController {
         let label = UILabel() // ラベル"label"を宣言
         
         // ラベルの大きさ
-        label.frame = CGRect(x: 120, y: 285, width: 125, height: 60) // ラベルの位置、大きさ指定
+        label.frame = CGRect(x: 120, y: 285, width: 125, height: 120) // ラベルの位置、大きさ指定
         
         // ラベルのテキスト
-        label.text = "テキスト" // テキストの表示内容
+        label.text = "テキスト1\nテキスト2\nテキスト3" // テキストの表示内容
         label.textColor = UIColor.green // テキストの色指定
         label.textAlignment = NSTextAlignment.center // テキストの位置指定
+        label.numberOfLines = 0 // 最大で何行のテキストを表示できるか指定 0で無限 1以上で指定行
         
         // ラベルの背景
         label.backgroundColor = UIColor.orange // ラベルの背景色指定

@@ -42,6 +42,7 @@ class ViewController: UIViewController {
         button.backgroundColor = UIColor.green // ボタンの背景色指定
         
         button.setTitle("おしてね", for: .normal) // ボタンの文字
+        button.addTarget(self, action: #selector(pushButton(sender:)), for: .touchUpInside)
         
         // ビューに描画
         self.view.addSubview(label) // ラベルをビューに表示
@@ -50,7 +51,11 @@ class ViewController: UIViewController {
         
     }
 
-    
+    @objc func pushButton(sender: UIButton){
+        let label = UILabel()
+        print("button pushed.")
+        label.textColor = UIColor.blue
+    }
 
 }
 

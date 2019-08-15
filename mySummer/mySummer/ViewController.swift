@@ -19,8 +19,8 @@ class ViewController: UIViewController {
         label.text = "テキスト" // テキストの表示内容
         label.textColor = UIColor.green // テキストの色指定
         label.backgroundColor = UIColor.orange // ラベルの背景色指定
-        label.layer.masksToBounds = true
-        label.layer.cornerRadius = 10.0 // ラベルの箱の角の丸み半径指定
+        label.layer.masksToBounds = true // 角丸にした部分のはみ出し許可 false:はみ出し可 true:はみ出し不可
+        label.layer.cornerRadius = 10.0 // ラベルの箱の角の丸み半径指定　角丸半径
         self.view.addSubview(label) // ラベルをビューに表示
         
         self.view.backgroundColor = UIColor.cyan // ビューの背景色指定

@@ -42,7 +42,7 @@ class ViewController: UIViewController {
         button.backgroundColor = UIColor.green // ボタンの背景色指定
         
         button.setTitle("おしてね", for: .normal) // ボタンの文字
-        button.addTarget(self, action: #selector(pushButton), for: .touchUpInside)
+        button.addTarget(self, action: #selector(pushButton1), for: .touchUpInside)
         
         // ビューに描画
         self.view.addSubview(label) // ラベルをビューに表示
@@ -51,7 +51,7 @@ class ViewController: UIViewController {
         
     }
 
-    @objc func pushButton(sender: UIButton){ // @objcはobject-Cのことらしい
+    @objc func pushButton1(sender: UIButton){ // @objcはobject-Cのことらしい
         print("ボタンが押されたよ")
         self.performSegue(withIdentifier: "toSecondView", sender: nil)
     }

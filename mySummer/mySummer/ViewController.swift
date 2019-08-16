@@ -53,6 +53,7 @@ class ViewController: UIViewController {
 
     @objc func pushButton(sender: UIButton){ // @objcはobject-Cのことらしい
         print("ボタンが押されたよ")
+        self.performSegue(withIdentifier: "toSecondView", sender: nil)
     }
 
 }

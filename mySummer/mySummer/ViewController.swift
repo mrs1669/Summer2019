@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         let label = UILabel() // ラベル"label"を宣言
-        let button = UIButton() // ボタン"button"を宣言
+        let button1 = UIButton() // ボタン"button"を宣言
         
         // ラベルの大きさ
         label.frame = CGRect(x: 120, y: 285, width: 125, height: 120) // ラベルの位置、大きさ指定
@@ -38,15 +38,15 @@ class ViewController: UIViewController {
         label.layer.cornerRadius = 10.0 // ラベルの箱の角の丸み半径指定　角丸半径
         
         // ボタンの大きさ
-        button.frame = CGRect(x: 120, y: 485, width: 125, height: 120) // ラベルの位置、大きさ指定
-        button.backgroundColor = UIColor.green // ボタンの背景色指定
+        button1.frame = CGRect(x: 120, y: 485, width: 125, height: 120) // ラベルの位置、大きさ指定
+        button1.backgroundColor = UIColor.green // ボタンの背景色指定
         
-        button.setTitle("おしてね", for: .normal) // ボタンの文字
-        button.addTarget(self, action: #selector(pushButton1), for: .touchUpInside)
+        button1.setTitle("おしてね", for: .normal) // ボタンの文字
+        button1.addTarget(self, action: #selector(pushButton1), for: .touchUpInside)
         
         // ビューに描画
         self.view.addSubview(label) // ラベルをビューに表示
-        self.view.addSubview(button) // ボタンをビューに表示
+        self.view.addSubview(button1) // ボタンをビューに表示
         self.view.backgroundColor = UIColor.cyan // ビューの背景色指定
         
     }

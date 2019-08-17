@@ -16,6 +16,7 @@
 		E132A784230846E500E944AB /* mySummer4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E132A783230846E500E944AB /* mySummer4Tests.swift */; };
 		E132A78F230846E500E944AB /* mySummer4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E132A78E230846E500E944AB /* mySummer4UITests.swift */; };
 		E132A79D23084D8C00E944AB /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E132A79C23084D8C00E944AB /* Second.storyboard */; };
+		E132A79F23084E3900E944AB /* Third.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E132A79E23084E3900E944AB /* Third.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		E132A78E230846E500E944AB /* mySummer4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySummer4UITests.swift; sourceTree = "<group>"; };
 		E132A790230846E500E944AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E132A79C23084D8C00E944AB /* Second.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
+		E132A79E23084E3900E944AB /* Third.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Third.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				E132A770230846DE00E944AB /* ViewController.swift */,
 				E132A772230846DE00E944AB /* Main.storyboard */,
 				E132A79C23084D8C00E944AB /* Second.storyboard */,
+				E132A79E23084E3900E944AB /* Third.storyboard */,
 				E132A775230846E500E944AB /* Assets.xcassets */,
 				E132A777230846E500E944AB /* LaunchScreen.storyboard */,
 				E132A77A230846E500E944AB /* Info.plist */,
@@ -239,6 +242,7 @@
 				E132A779230846E500E944AB /* LaunchScreen.storyboard in Resources */,
 				E132A776230846E500E944AB /* Assets.xcassets in Resources */,
 				E132A774230846DE00E944AB /* Main.storyboard in Resources */,
+				E132A79F23084E3900E944AB /* Third.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

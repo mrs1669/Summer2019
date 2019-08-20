@@ -19,6 +19,6 @@ class ViewController: UIViewController {
         self.viewDidLoad()
     }
 
-
+//よくわかんね
 }
 

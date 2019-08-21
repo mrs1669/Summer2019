@@ -9,16 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let button = UIButton()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        let button = UIButton()
-        
-        self.viewDidLoad()
+        botan.backgroundColor = UIColor.yellow
     }
 
+    @IBOutlet weak var botan: UIButton!
+    
+    
+    
+    
 //よくわかんね
 }
 

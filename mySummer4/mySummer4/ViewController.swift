@@ -24,6 +24,6 @@ class ViewController: UIViewController {
     
     
     
-//よくわかんね
+// よくわかんね
 }
 
